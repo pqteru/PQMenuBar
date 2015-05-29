@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PQMenuBar_Example', :exclusive => true do
+  pod "PQMenuBar", :path => "../"
+end
+
+target 'PQMenuBar_Tests', :exclusive => true do
+  pod "PQMenuBar", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
