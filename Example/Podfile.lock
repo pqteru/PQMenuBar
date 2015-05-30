@@ -1,0 +1,28 @@
+PODS:
+  - Expecta (0.4.2)
+  - Expecta+Snapshots (1.3.2):
+    - Expecta (~> 0.3)
+    - FBSnapshotTestCase (= 1.6)
+  - FBSnapshotTestCase (1.6)
+  - PQMenuBar (0.1.0)
+  - Specta (1.0.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - PQMenuBar (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  PQMenuBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
+  Expecta+Snapshots: 40c5ec43b43da3bae957f14fed5dc9177d08ec8b
+  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  PQMenuBar: ef3d298a06ad6e1e0594ebb5a868d9d8ec22b5e2
+  Specta: 96fe05fe5c7348b5223f85e862904f6e832abb14
+
+COCOAPODS: 0.36.0.beta.2

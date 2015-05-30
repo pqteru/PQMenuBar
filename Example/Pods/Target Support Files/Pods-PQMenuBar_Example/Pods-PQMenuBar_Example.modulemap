@@ -1,0 +1,6 @@
+framework module Pods_PQMenuBar_Example {
+  umbrella header "Pods-PQMenuBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
