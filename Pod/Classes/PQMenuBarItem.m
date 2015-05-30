@@ -1,9 +1,9 @@
 //
 //  PQMenuBarItem.m
-//  PQMenuBar
+//  Pods
 //
 //  Created by pqteru on 2015/5/30.
-//  Copyright (c) 2015年 pqteru. All rights reserved.
+//
 //
 
 #import "PQMenuBarItem.h"

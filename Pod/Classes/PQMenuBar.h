@@ -1,9 +1,9 @@
 //
 //  PQMenuBar.h
-//  PQMenuBar
+//  Pods
 //
 //  Created by pqteru on 2015/5/30.
-//  Copyright (c) 2015年 pqteru. All rights reserved.
+//
 //
 
 #import <Foundation/Foundation.h>
@@ -40,4 +40,3 @@
 - (void)dismiss;
 
 @end
-

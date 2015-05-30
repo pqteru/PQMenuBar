@@ -1,9 +1,9 @@
 //
 //  PQMenuBar.m
-//  PQMenuBar
+//  Pods
 //
 //  Created by pqteru on 2015/5/30.
-//  Copyright (c) 2015年 pqteru. All rights reserved.
+//
 //
 
 #import "PQMenuBar.h"
@@ -252,4 +252,3 @@ static const CGFloat pageControlDefaultHeight = 30.0f;
 }
 
 @end
-
