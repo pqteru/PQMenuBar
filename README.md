@@ -13,7 +13,7 @@ PQMenuBar is a Light-weight Menu Bar for iOS App.
   - Paging available
 
 ### Screen Shot
-![Alt text](/pqteru/PQMenuBar/PQMenuBar_screenshot.png?raw=true "PQMenuBar")
+![Alt text](/PQMenuBar_screenshot.png?raw=true "PQMenuBar_screenshot")
 
 ## Usage
 ```objective-c
