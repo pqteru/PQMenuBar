@@ -42,7 +42,7 @@ Set hide paging, default is NO
 [menu hidePaging:YES];
 ```
 
-Delegate
+## Delegate
 ```objective-c
 menu.delegate = self;
 ```
