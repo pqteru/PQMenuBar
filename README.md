@@ -32,12 +32,18 @@ PQMenuBarItem *itemB = [[PQMenuBarItem alloc] initWithTitle:@"testB"
 [menu show];
 ```
 
-### Setting columns and rows
+Setting columns and rows
 ```objective-c
 [menu setColumn:3 andRow:3];
 ```
+Default columns is 4 and rows is 2
 
-### Delegate
+Set hide paging, default is NO
+```objective-c
+[menu hidePaging:YES];
+```
+
+Set its delegate
 ```objective-c
 menu.delegate = self;
 ```
