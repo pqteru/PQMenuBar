@@ -5,18 +5,52 @@
 [![License](https://img.shields.io/cocoapods/l/PQMenuBar.svg?style=flat)](http://cocoapods.org/pods/PQMenuBar)
 [![Platform](https://img.shields.io/cocoapods/p/PQMenuBar.svg?style=flat)](http://cocoapods.org/pods/PQMenuBar)
 
-## Usage
+PQMenuBar is a Light-weight Menu Bar for iOS App.
 
+  - Easy to use
+  - Customizable menu size
+  - Customizable menu item features
+  - Paging available
+
+### Screen Shot
+![Alt text](/pqteru/PQMenuBar/PQMenuBar_screenshot.png?raw=true "PQMenuBar")
+
+## Usage
+```objective-c
+menu = [[PQMenuBar alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 180)];
+PQMenuBarItem *itemA = [[PQMenuBarItem alloc] initWithTitle:@"testA"
+                                              image:[UIImage imageNamed:@"photo"]
+                                              target:self
+                                              action:@selector(actionA:)];
+PQMenuBarItem *itemB = [[PQMenuBarItem alloc] initWithTitle:@"testB"
+                                              image:nil
+                                              target:self
+                                              action:@selector(actionB:)];
+[menu addMenuItem:itemA];
+[menu addMenuItem:itemB];
+[menu show];
+```
+
+## Delegate
+```objective-c
+menu.delegate = self;
+```
+
+Method that can be implemented
+```objective-c
+- (void)menuBar:(PQMenuBar *)menubar didSelectAtIndex:(int)index;
+```
+
+## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
 PQMenuBar is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```objective-c
 pod "PQMenuBar"
 ```
 
