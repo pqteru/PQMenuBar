@@ -17,10 +17,12 @@ PQMenuBar is a Light-weight Menu Bar for iOS App.
 ## Usage
 ```objective-c
 menu = [[PQMenuBar alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 180)];
+
 PQMenuBarItem *itemA = [[PQMenuBarItem alloc] initWithTitle:@"testA"
                                               image:[UIImage imageNamed:@"photo"]
                                               target:self
                                               action:@selector(actionA:)];
+
 PQMenuBarItem *itemB = [[PQMenuBarItem alloc] initWithTitle:@"testB"
                                               image:nil
                                               target:self
@@ -30,7 +32,12 @@ PQMenuBarItem *itemB = [[PQMenuBarItem alloc] initWithTitle:@"testB"
 [menu show];
 ```
 
-## Delegate
+### Setting columns and rows
+```objective-c
+[menu setColumn:3 andRow:3];
+```
+
+### Delegate
 ```objective-c
 menu.delegate = self;
 ```
