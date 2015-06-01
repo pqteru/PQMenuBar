@@ -10,18 +10,20 @@
 Pod::Spec.new do |s|
   s.name             = "PQMenuBar"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PQMenuBar."
+  s.summary          = "PQMenuBar is a Light-weight Menu Bar for iOS App."
   s.description      = <<-DESC
-                       An optional longer description of PQMenuBar
+                        PQMenuBar is a Light-weight Menu Bar for iOS App.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        * Easy to use
+                        * Customizable menu size
+                        * Customizable menu item features
+                        * Paging available
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PQMenuBar"
+  s.homepage         = "https://github.com/pqteru/PQMenuBar"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "pqteru" => "pqteru@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PQMenuBar.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/pqteru/PQMenuBar.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
