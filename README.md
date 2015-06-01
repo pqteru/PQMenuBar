@@ -12,7 +12,6 @@ PQMenuBar is a Light-weight Menu Bar for iOS App.
   - Customizable menu item features
   - Paging available
 
-### Screen Shot
 ![Screenshot](/PQMenuBar_screenshot.png?raw=true "PQMenuBar_screenshot" =250x)
 
 ## Usage
