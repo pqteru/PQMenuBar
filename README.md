@@ -29,7 +29,6 @@ PQMenuBarItem *itemB = [[PQMenuBarItem alloc] initWithTitle:@"testB"
                                               action:@selector(actionB:)];
 [menu addMenuItem:itemA];
 [menu addMenuItem:itemB];
-[menu show];
 ```
 
 Setting columns and rows, default columns = 4 and rows = 2
@@ -40,6 +39,16 @@ Setting columns and rows, default columns = 4 and rows = 2
 Set hide paging, default is NO
 ```objective-c
 [menu hidePaging:YES];
+```
+
+Display menu
+```objective-c
+[menu show];
+```
+
+Dismiss menu
+```objective-c
+[menu dismiss];
 ```
 
 ## Delegate
