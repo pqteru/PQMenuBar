@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PQMenuBar"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "PQMenuBar is a Light-weight Menu Bar for iOS App."
   s.description      = <<-DESC
                         PQMenuBar is a Light-weight Menu Bar for iOS App.
