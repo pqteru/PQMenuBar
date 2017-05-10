@@ -1,16 +1,16 @@
 {
   "name": "PQMenuBar",
-  "version": "0.1.0",
-  "summary": "A short description of PQMenuBar.",
-  "description": "                       An optional longer description of PQMenuBar\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PQMenuBar",
+  "version": "0.1.1",
+  "summary": "PQMenuBar is a Light-weight Menu Bar for iOS App.",
+  "description": "PQMenuBar is a Light-weight Menu Bar for iOS App.\n\n* Easy to use\n* Customizable menu size\n* Customizable menu item features\n* Paging available",
+  "homepage": "https://github.com/pqteru/PQMenuBar",
   "license": "MIT",
   "authors": {
     "pqteru": "pqteru@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PQMenuBar.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pqteru/PQMenuBar.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"

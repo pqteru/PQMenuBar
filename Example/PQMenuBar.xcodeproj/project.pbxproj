@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3002CBF0DF66E5C493E61868 /* Pods_PQMenuBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F526C7F774ED36B4F4B99E0 /* Pods_PQMenuBar_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		7469981D30710ACEE94DAA5B /* Pods_PQMenuBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA730410D4415C0BF193440 /* Pods_PQMenuBar_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		70773C3759D5E40890997A3F /* Pods_PQMenuBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1456D6C072FBAE82282EE5 /* Pods_PQMenuBar_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A9B3E8527FA2AB14529E22B /* Pods-PQMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMenuBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PQMenuBar_Tests/Pods-PQMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0F526C7F774ED36B4F4B99E0 /* Pods_PQMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQMenuBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BAFDA8BF6B1AA7EF9DCC417 /* Pods-PQMenuBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMenuBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PQMenuBar_Example/Pods-PQMenuBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		369C191E354AA77C64349389 /* Pods-PQMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMenuBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PQMenuBar_Example/Pods-PQMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		474EAB506F7C603C9E042B98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PQMenuBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PQMenuBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +59,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		83111A15828BBBC046FA15E8 /* Pods-PQMenuBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMenuBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PQMenuBar_Tests/Pods-PQMenuBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		89D6063D0E71C761EFE27FEA /* Pods-PQMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMenuBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PQMenuBar_Example/Pods-PQMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AEA730410D4415C0BF193440 /* Pods_PQMenuBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQMenuBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1456D6C072FBAE82282EE5 /* Pods_PQMenuBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQMenuBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5515AA061CBF9189379E834 /* Pods-PQMenuBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMenuBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PQMenuBar_Example/Pods-PQMenuBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C866FA12FFB4AAEE7C3A8115 /* PQMenuBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PQMenuBar.podspec; path = ../PQMenuBar.podspec; sourceTree = "<group>"; };
 		E1DE668AE05A28EB88B4A0EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +73,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7469981D30710ACEE94DAA5B /* Pods_PQMenuBar_Example.framework in Frameworks */,
+				70773C3759D5E40890997A3F /* Pods_PQMenuBar_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3002CBF0DF66E5C493E61868 /* Pods_PQMenuBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +98,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				C8E040A89BC9D95B3A9530C9 /* Pods */,
+				9CCDFBD4B03036BEFB6BE342 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +118,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				AEA730410D4415C0BF193440 /* Pods_PQMenuBar_Example.framework */,
-				0F526C7F774ED36B4F4B99E0 /* Pods_PQMenuBar_Tests.framework */,
+				9C1456D6C072FBAE82282EE5 /* Pods_PQMenuBar_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,13 +179,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C8E040A89BC9D95B3A9530C9 /* Pods */ = {
+		9CCDFBD4B03036BEFB6BE342 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				89D6063D0E71C761EFE27FEA /* Pods-PQMenuBar_Example.debug.xcconfig */,
-				2BAFDA8BF6B1AA7EF9DCC417 /* Pods-PQMenuBar_Example.release.xcconfig */,
-				83111A15828BBBC046FA15E8 /* Pods-PQMenuBar_Tests.debug.xcconfig */,
-				0A9B3E8527FA2AB14529E22B /* Pods-PQMenuBar_Tests.release.xcconfig */,
+				369C191E354AA77C64349389 /* Pods-PQMenuBar_Example.debug.xcconfig */,
+				B5515AA061CBF9189379E834 /* Pods-PQMenuBar_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -203,12 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "PQMenuBar_Example" */;
 			buildPhases = (
-				66880BB6B355CE93F36EFA11 /* Check Pods Manifest.lock */,
+				70A6989872BEBA4544DD2563 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4A39DF7BB3B100C42AA94504 /* Embed Pods Frameworks */,
-				CDDF6E61D1D27EAACBC73B0B /* Copy Pods Resources */,
+				C1B97953F0B308498DA545B3 /* [CP] Embed Pods Frameworks */,
+				B9ED1CA7C4388506FEEA1AC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,12 +215,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "PQMenuBar_Tests" */;
 			buildPhases = (
-				6CFB1DCBF0F675A58C259DA6 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				EB25C3762A05994892881DB6 /* Embed Pods Frameworks */,
-				29F0663700B8D921453F0FE9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +236,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PQ;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = pqteru;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -297,74 +289,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29F0663700B8D921453F0FE9 /* Copy Pods Resources */ = {
+		70A6989872BEBA4544DD2563 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PQMenuBar_Tests/Pods-PQMenuBar_Tests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4A39DF7BB3B100C42AA94504 /* Embed Pods Frameworks */ = {
+		B9ED1CA7C4388506FEEA1AC2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PQMenuBar_Example/Pods-PQMenuBar_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66880BB6B355CE93F36EFA11 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6CFB1DCBF0F675A58C259DA6 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CDDF6E61D1D27EAACBC73B0B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,19 +319,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PQMenuBar_Example/Pods-PQMenuBar_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB25C3762A05994892881DB6 /* Embed Pods Frameworks */ = {
+		C1B97953F0B308498DA545B3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PQMenuBar_Tests/Pods-PQMenuBar_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PQMenuBar_Example/Pods-PQMenuBar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -467,13 +414,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -486,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,20 +459,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -528,14 +486,16 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89D6063D0E71C761EFE27FEA /* Pods-PQMenuBar_Example.debug.xcconfig */;
+			baseConfigurationReference = 369C191E354AA77C64349389 /* Pods-PQMenuBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PQMenuBar/PQMenuBar-Prefix.pch";
 				INFOPLIST_FILE = "PQMenuBar/PQMenuBar-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -543,14 +503,16 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BAFDA8BF6B1AA7EF9DCC417 /* Pods-PQMenuBar_Example.release.xcconfig */;
+			baseConfigurationReference = B5515AA061CBF9189379E834 /* Pods-PQMenuBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PQMenuBar/PQMenuBar-Prefix.pch";
 				INFOPLIST_FILE = "PQMenuBar/PQMenuBar-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -558,7 +520,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83111A15828BBBC046FA15E8 /* Pods-PQMenuBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -573,6 +534,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PQMenuBar_Example.app/PQMenuBar_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -581,7 +543,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A9B3E8527FA2AB14529E22B /* Pods-PQMenuBar_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -592,6 +553,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PQMenuBar_Example.app/PQMenuBar_Example";
 				WRAPPER_EXTENSION = xctest;
